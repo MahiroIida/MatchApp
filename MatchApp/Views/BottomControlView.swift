@@ -16,6 +16,7 @@ class BottomControlView:UIView{
     let likeView = BottomButtonView(frame: .zero, width: 60,imageName: "like")
     let boostView = BottomButtonView(frame: .zero, width: 50,imageName: "thunder")
     
+
     
     override init(frame: CGRect) {
         super.init(frame: frame)
